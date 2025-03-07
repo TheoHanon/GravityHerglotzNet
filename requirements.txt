@@ -1,0 +1,7 @@
+matplotlib==3.7.2
+numpy==1.24.4
+numpy==1.24.3
+plotly==5.14.1
+pyshtools==4.13.1
+spiceypy==6.0.0
+tqdm==4.66.4
