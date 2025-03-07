@@ -1,0 +1,2 @@
+# Gravity simulations for HNET
+We show simulations of retrival of a set of real spherical harmonics gravity coefficients from a set of gravitational measurements (either potential or acceleration). This is a simplified example of what is performed in an orbit determination (OD) campaign, where the Stokes coefficients are estimated, along with other parameters, from a set of radio-tracking measurements of an orbiting spacecraft.
