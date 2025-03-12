@@ -27,4 +27,4 @@ from ._filtering import (
     solve_normal_equations,
 )
 
-from ._plots import plot_traj, plot_val_2d
+from ._plots import plot_traj, plot_val_2d, plot_sphere, plot_sphere_scatter
