@@ -23,8 +23,6 @@ def plot_sphere_scatter(
     # contour data over the map.
     im = ax.scatter(Lon, Lat, c=data, cmap=cmap, **kwargs)
 
-    if colorbar:
-        plt.colorbar(im)
     plt.title(title, y=1.05)
 
     return im
