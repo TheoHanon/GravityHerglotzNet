@@ -6,6 +6,25 @@ from ._traj import (
 
 from . import _units as units
 
+from ._hnet import (
+    GravityHNet,
+    flux_regulizer,
+    laplacian_regulizer,
+    energy_regulizer,
+    gradient_loss,
+    s2_grid,
+    s2_sample,
+    two_sphere_sample,
+    r3_sample,
+    train,
+    gradient_metric_loss,
+)
+
+from ._hnet_plot import (
+    plot_s2,
+    plot_shcoeffs,
+)
+
 from ._utils import (
     read_SHADR,
     write_SHADR,
@@ -27,4 +46,4 @@ from ._filtering import (
     solve_normal_equations,
 )
 
-from ._plots import plot_traj, plot_val_2d, plot_sphere, plot_sphere_scatter
+from ._plots import plot_traj, plot_val_2d
